@@ -292,6 +292,11 @@ footer #footer-sns a {
   color: inherit;
 }
 
+textarea {
+  resize: none;
+  height: 300px;
+}
+
 #contact-notice {
   background-image: var(--gradation);
 }
@@ -396,9 +401,14 @@ footer #footer-sns a {
   #main-tour .btn {
     padding: 1% 5%;
   }
-  #main-news a:hover img {
+  #main-news a:hover img,
+  #disco-list a:hover img {
     transition: 0.4s;
     transform: scale(1.02);
+  }
+  #main-news a:hover h4,
+  #disco-list a:hover h4 {
+    text-decoration: underline;
   }
   #about-member figcaption {
     display: none;
@@ -414,6 +424,9 @@ footer #footer-sns a {
     position: absolute;
     top: 0;
   }
+  #disco-new a:hover {
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.6);
+  }
   #tour-info iframe {
     width: 60vw;
     height: 33.75vw;
@@ -422,6 +435,16 @@ footer #footer-sns a {
     transform: translateY(3px);
   }
   #tour-merch a:hover img {
+    transition: 0.4s;
+    transform: scale(1.04);
+  }
+  form .btn {
+    padding: 1% 10%;
+  }
+  #contact-notice a:hover {
+    text-decoration: underline;
+  }
+  #contact-sns a:hover {
     transition: 0.4s;
     transform: scale(1.04);
   }

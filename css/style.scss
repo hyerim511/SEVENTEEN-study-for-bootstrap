@@ -348,6 +348,11 @@ footer {
 
 // CONTACT
 
+textarea {
+    resize: none;
+    height: 300px;
+}
+
 #contact-notice {
     background-image: var(--gradation);
 
@@ -473,7 +478,6 @@ footer {
     }
 
     footer {
-
         p {
             a:hover {
                 text-decoration: underline;
@@ -487,17 +491,23 @@ footer {
         }
     }
 
+    // MAIN
+
     #main-tour {
         .btn {
             padding: 1% 5%;
         }
     }
 
-    #main-news {
+    #main-news,
+    #disco-list {
         a:hover {
             img {
                 transition: .4s;
                 transform: scale(1.02);
+            }
+            h4 {
+                text-decoration: underline;
             }
         }
     }
@@ -523,6 +533,12 @@ footer {
         }
     }
 
+    #disco-new {
+        a:hover {
+            box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.6);
+        }
+    }
+
     #tour-info {
         iframe {
             width: 60vw;
@@ -541,6 +557,25 @@ footer {
                 transition: .4s;
                 transform: scale(1.04);
             }
+        }
+    }
+
+    form {
+        .btn {
+            padding: 1% 10%;
+        }
+    }
+
+    #contact-notice {
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    #contact-sns {
+        a:hover {
+            transition: .4s;
+            transform: scale(1.04);
         }
     }
 }
