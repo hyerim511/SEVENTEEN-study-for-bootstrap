@@ -478,7 +478,6 @@ textarea {
     }
 
     footer {
-
         p {
             a:hover {
                 text-decoration: underline;
@@ -492,6 +491,8 @@ textarea {
         }
     }
 
+    // MAIN
+
     #main-tour {
         .btn {
             padding: 1% 5%;
@@ -504,6 +505,9 @@ textarea {
             img {
                 transition: .4s;
                 transform: scale(1.02);
+            }
+            h4 {
+                text-decoration: underline;
             }
         }
     }

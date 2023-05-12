@@ -406,6 +406,10 @@ textarea {
     transition: 0.4s;
     transform: scale(1.02);
   }
+  #main-news a:hover h4,
+  #disco-list a:hover h4 {
+    text-decoration: underline;
+  }
   #about-member figcaption {
     display: none;
     background-image: var(--gradation);
