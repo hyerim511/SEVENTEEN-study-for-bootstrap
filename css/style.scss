@@ -387,3 +387,22 @@ footer {
     }
 }
 
+
+@media (min-width: 768px) {
+
+    #tour-info {
+        iframe {
+            // width: 60vw;
+            // height: calc(60vw*9/16);
+            width: 100%;
+            height: calc(696px*9/16);
+        }
+    }
+
+    #contact-sns {
+        a {
+            height: 200px;
+        }
+    }
+
+}
