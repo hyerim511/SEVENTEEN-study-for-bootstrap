@@ -493,7 +493,8 @@ footer {
         }
     }
 
-    #main-news {
+    #main-news,
+    #disco-list {
         a:hover {
             img {
                 transition: .4s;
@@ -541,6 +542,12 @@ footer {
                 transition: .4s;
                 transform: scale(1.04);
             }
+        }
+    }
+
+    form {
+        .btn {
+            padding: 1% 10%;
         }
     }
 }
