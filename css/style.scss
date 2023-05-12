@@ -257,22 +257,7 @@ footer {
 
 // MAIN DETAILS
 
-#main-tour {
-    height: 50vh;
-    background: {
-        image: url('../img/main-tour.jpg');
-        position: center;
-        size: cover;
-        repeat: no-repeat;
-        attachment: fixed;
-    }
-
-    div {
-        background-color: rgba(0,0,0,.7);
-    }
-    
-}
-
+// ABOUT
 
 #about-member {
     figcaption {
@@ -292,6 +277,8 @@ footer {
         }
     }
 }
+
+// DISCOGRAPHY
 
 #disco-new {
     img {
@@ -314,6 +301,23 @@ footer {
 
 #disco-listen {
     background-image: var(--gradation);
+}
+
+// TOUR
+
+#main-tour {
+    height: 50vh;
+    background: {
+        image: url('../img/main-tour.jpg');
+        position: center;
+        size: cover;
+        repeat: no-repeat;
+        attachment: fixed;
+    }
+
+    div {
+        background-color: rgba(0,0,0,.7);
+    }
 }
 
 #tour-info {
@@ -358,6 +362,8 @@ footer {
     }
 }
 
+// CONTACT
+
 #contact-notice {
     background-image: var(--gradation);
 
@@ -368,7 +374,6 @@ footer {
 
 #contact-sns {
     a {
-        // border: 1px solid var(--rosequartz);
         display: flex;
         justify-content: center;
         align-items: center;
