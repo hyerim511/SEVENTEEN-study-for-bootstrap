@@ -406,6 +406,8 @@ footer {
 
 }
 
+// Media query: Desktop
+
 @media (min-width: 992px) {
 
     .btn-primary:hover {
@@ -491,9 +493,6 @@ footer {
         }
     }
 
-
-
-
     #main-tour {
         .btn {
             padding: 1% 5%;
@@ -512,7 +511,6 @@ footer {
     #about-member {
         figcaption {
             display: none;
-            // display: flex;
             background-image: var(--gradation);
         }
     
