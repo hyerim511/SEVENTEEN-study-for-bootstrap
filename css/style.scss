@@ -99,27 +99,14 @@ header {
 
 [alt="Cloud1"] {
     mix-blend-mode: screen;
-    // top: 20%;
     top: 50%;
-    // animation: {
-    //     name: cloud1;
-    //     duration: 90s;
-    //     iteration-count: infinite;
-    //     direction: alternate;
-    // }
+
     @include cloudAni(cloud1, 90s);
 }
 
 [alt="Cloud2"] {
     mix-blend-mode: screen;
-    // top: -30%;
     top: -50%;
-    // animation: {
-    //     name: cloud2;
-    //     duration: 100s;
-    //     iteration-count: infinite;
-    //     direction: alternate;
-    // }
     @include cloudAni(cloud2, 100s);
 }
 
@@ -127,12 +114,6 @@ header {
     mix-blend-mode: screen;
     top: -30%;
     width: 200%;
-    // animation: {
-    //     name: cloud3;
-    //     duration: 140s;
-    //     iteration-count: infinite;
-    //     direction: alternate;
-    // }
     @include cloudAni(cloud3, 140s);
     opacity: .5;
 }
@@ -142,10 +123,6 @@ header {
     top: 15%;
     left: -200%;
     animation: {
-        // name: cloud4;
-        // duration: 90s;
-        // iteration-count: infinite;
-        // direction: alternate;
         delay: 30s;
     }
     @include cloudAni(cloud4, 90s);
@@ -156,10 +133,6 @@ header {
     top: -35%;
     right: -200%;
     animation: {
-        // name: cloud5;
-        // duration: 100s;
-        // iteration-count: infinite;
-        // direction: alternate;
         delay: 30s;
     }
     @include cloudAni(cloud5, 100s);
@@ -171,10 +144,6 @@ header {
     left: -300%;
     width: 200%;
     animation: {
-        // name: cloud6;
-        // duration: 140s;
-        // iteration-count: infinite;
-        // direction: alternate;
         delay: 30s;
     }
     @include cloudAni(cloud6, 140s);
