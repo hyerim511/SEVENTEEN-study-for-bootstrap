@@ -270,10 +270,12 @@ footer #footer-sns a {
   width: 100%;
 }
 #tour-info tr {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 #tour-info td {
-  padding: 1%;
+  padding: 1.5%;
+  color: white;
+  border-color: white;
 }
 
 #tour-watch {
