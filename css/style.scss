@@ -348,6 +348,11 @@ footer {
 
 // CONTACT
 
+textarea {
+    resize: none;
+    height: 300px;
+}
+
 #contact-notice {
     background-image: var(--gradation);
 
@@ -548,6 +553,19 @@ footer {
     form {
         .btn {
             padding: 1% 10%;
+        }
+    }
+
+    #contact-notice {
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    #contact-sns {
+        a:hover {
+            transition: .4s;
+            transform: scale(1.04);
         }
     }
 }

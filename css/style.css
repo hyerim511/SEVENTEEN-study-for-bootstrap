@@ -292,6 +292,11 @@ footer #footer-sns a {
   color: inherit;
 }
 
+textarea {
+  resize: none;
+  height: 300px;
+}
+
 #contact-notice {
   background-image: var(--gradation);
 }
@@ -428,5 +433,12 @@ footer #footer-sns a {
   }
   form .btn {
     padding: 1% 10%;
+  }
+  #contact-notice a:hover {
+    text-decoration: underline;
+  }
+  #contact-sns a:hover {
+    transition: 0.4s;
+    transform: scale(1.04);
   }
 }/*# sourceMappingURL=style.css.map */
