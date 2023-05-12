@@ -419,17 +419,13 @@ footer {
         border: 1px solid white;
     }
 
-    [alt="Cloud1"] {
-        top: 10%;
-    }
-
     [alt="Cloud2"] {
-        top: -30%;
+        top: -20%;
     }
 
     @keyframes cloud1 {
         from {
-            left: -30%;
+            left: -50%;
         }
         to {
             left: 100%;
@@ -437,7 +433,7 @@ footer {
     }
     @keyframes cloud2 {
         from {
-            right: -30%;
+            right: -50%;
         }
         to {
             right: 100%;

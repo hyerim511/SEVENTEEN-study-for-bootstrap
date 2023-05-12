@@ -108,22 +108,22 @@ header h1 {
   mix-blend-mode: screen;
   top: 15%;
   left: -200%;
+  animation-delay: 30s;
   animation-name: cloud4;
   animation-duration: 90s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  animation-delay: 30s;
 }
 
 [alt=Cloud5] {
   mix-blend-mode: screen;
   top: -35%;
   right: -200%;
+  animation-delay: 30s;
   animation-name: cloud5;
   animation-duration: 100s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  animation-delay: 30s;
 }
 
 [alt=Cloud6] {
@@ -131,11 +131,11 @@ header h1 {
   top: -30%;
   left: -300%;
   width: 200%;
+  animation-delay: 30s;
   animation-name: cloud6;
   animation-duration: 140s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  animation-delay: 30s;
   opacity: 0.5;
 }
 
@@ -218,18 +218,6 @@ footer #footer-sns a {
   background-color: rgba(137, 171, 227, 0.2);
 }
 
-#main-tour {
-  height: 50vh;
-  background-image: url("../img/main-tour.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-#main-tour div {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
 #about-member figcaption {
   display: flex;
   background-image: var(--gradation);
@@ -260,6 +248,18 @@ footer #footer-sns a {
 
 #disco-listen {
   background-image: var(--gradation);
+}
+
+#main-tour {
+  height: 50vh;
+  background-image: url("../img/main-tour.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#main-tour div {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #tour-info iframe {
@@ -317,4 +317,124 @@ footer #footer-sns a {
 }
 #contact-sns .col-12:last-child a {
   background-image: linear-gradient(150deg, #F2DDDE 30%, #1DA1F2 100%);
+}
+
+@media (min-width: 768px) {
+  #tour-info iframe {
+    width: 100%;
+    height: 391.5px;
+  }
+  #contact-sns a {
+    height: 200px;
+  }
+}
+@media (min-width: 992px) {
+  .btn-primary:hover {
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.6);
+  }
+  .btn-secondary:hover {
+    background-color: transparent;
+    border: 1px solid white;
+  }
+  [alt=Cloud2] {
+    top: -20%;
+  }
+  @keyframes cloud1 {
+    from {
+      left: -50%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  @keyframes cloud2 {
+    from {
+      right: -50%;
+    }
+    to {
+      right: 100%;
+    }
+  }
+  @keyframes cloud3 {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  @keyframes cloud4 {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  @keyframes cloud5 {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 100%;
+    }
+  }
+  @keyframes cloud6 {
+    from {
+      left: -200%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  footer p a:hover {
+    text-decoration: underline;
+  }
+  footer #footer-sns {
+    display: flex;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    justify-content: center;
+  }
+  footer #footer-sns a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(137, 171, 227, 0.2);
+  }
+  #main-tour .btn {
+    padding: 1% 5%;
+  }
+  #main-news a:hover img {
+    transition: 0.4s;
+    transform: scale(1.02);
+  }
+  #about-member figcaption {
+    display: none;
+    background-image: var(--gradation);
+  }
+  #about-member figure {
+    position: relative;
+  }
+  #about-member figure:hover figcaption {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  #tour-info iframe {
+    width: 60vw;
+    height: 33.75vw;
+  }
+  #tour-merch .d-flex a:hover {
+    transform: translateY(3px);
+  }
+  #tour-merch a:hover img {
+    transition: 0.4s;
+    transform: scale(1.04);
+  }
 }/*# sourceMappingURL=style.css.map */
