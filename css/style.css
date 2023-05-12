@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+:root {
+  --rosequartz: #F2DDDE;
+  --serenity: #89ABE3;
+  --gradation: linear-gradient(130deg, #F2DDDE 20%, #89ABE3 90%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.btn {
+  border: 0px none;
+  padding: 2% 10%;
+}
+
+.btn-primary {
+  background-image: var(--gradation);
+  box-shadow: 0px 14px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-secondary {
+  color: var(--rosequartz);
+  background-color: transparent;
+  border: 1px solid rgba(242, 221, 222, 0.5);
+}
+
+header {
+  width: 100%;
+  height: 80vh;
+  background-image: var(--gradation);
+  overflow: hidden;
+}
+header nav {
+  z-index: 2;
+}
+header nav .nav-link {
+  border-bottom: 2px solid transparent;
+}
+header nav .nav-link:hover {
+  border-bottom: 2px solid black;
+}
+header h1 {
+  font-size: 7rem;
+  opacity: 0.5;
+  bottom: -13%;
+}
+
+#header-sub {
+  height: 35vh;
+}
+#header-sub [alt=Cloud1] {
+  top: 70%;
+}
+#header-sub [alt=Cloud2] {
+  top: 40%;
+}
+
+#header-tour {
+  height: auto;
+  background-image: none;
+  z-index: 5;
+}
+
+[alt=Logo] {
+  top: 35%;
+}
+
+[alt=Cloud1] {
+  mix-blend-mode: screen;
+  top: 50%;
+  animation-name: cloud1;
+  animation-duration: 90s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+[alt=Cloud2] {
+  mix-blend-mode: screen;
+  top: -50%;
+  animation-name: cloud2;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+[alt=Cloud3] {
+  mix-blend-mode: screen;
+  top: -30%;
+  width: 200%;
+  animation-name: cloud3;
+  animation-duration: 140s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 0.5;
+}
+
+[alt=Cloud4] {
+  mix-blend-mode: screen;
+  top: 15%;
+  left: -200%;
+  animation-name: cloud4;
+  animation-duration: 90s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 30s;
+}
+
+[alt=Cloud5] {
+  mix-blend-mode: screen;
+  top: -35%;
+  right: -200%;
+  animation-name: cloud5;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 30s;
+}
+
+[alt=Cloud6] {
+  mix-blend-mode: screen;
+  top: -30%;
+  left: -300%;
+  width: 200%;
+  animation-name: cloud6;
+  animation-duration: 140s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 30s;
+  opacity: 0.5;
+}
+
+@keyframes cloud1 {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes cloud2 {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 100%;
+  }
+}
+@keyframes cloud3 {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes cloud4 {
+  from {
+    left: -200%;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes cloud5 {
+  from {
+    right: -200%;
+  }
+  to {
+    right: 100%;
+  }
+}
+@keyframes cloud6 {
+  from {
+    left: -300%;
+  }
+  to {
+    left: 100%;
+  }
+}
+main section {
+  padding: 10% 0;
+}
+
+#tour-main {
+  padding-top: 20vh;
+  background-color: #FF7300;
+}
+
+footer {
+  background-color: #272727;
+}
+footer a {
+  color: var(--serenity);
+}
+footer #footer-sns {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  justify-content: center;
+}
+footer #footer-sns a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(137, 171, 227, 0.2);
+}
+
+#main-tour {
+  height: 50vh;
+  background-image: url("../img/main-tour.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#main-tour div {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#about-member figcaption {
+  display: flex;
+  background-image: var(--gradation);
+}
+#about-member figure {
+  position: relative;
+}
+#about-member figure:hover figcaption {
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+
+#disco-new img {
+  width: 60%;
+}
+
+#disco-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--serenity);
+  color: var(--serenity);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#disco-listen {
+  background-image: var(--gradation);
+}
+
+#tour-info iframe {
+  width: 100%;
+  height: 303.75px;
+}
+#tour-info table {
+  width: 100%;
+}
+#tour-info tr {
+  background-color: white;
+}
+#tour-info td {
+  padding: 1%;
+}
+
+#tour-watch {
+  background-color: #230300;
+}
+
+#tour-merch {
+  background-color: white;
+}
+#tour-merch .d-flex a {
+  color: var(--serenity);
+  font-size: 14px;
+  padding-top: 5px;
+}
+#tour-merch .row a {
+  color: inherit;
+}
+
+#contact-notice {
+  background-image: var(--gradation);
+}
+#contact-notice a {
+  color: inherit;
+}
+
+#contact-sns a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  color: white;
+}
+#contact-sns .col-12:nth-child(1) a {
+  background-image: linear-gradient(150deg, #F2DDDE 30%, #0BE6C1 100%);
+}
+#contact-sns .col-12:nth-child(2) a {
+  background-image: linear-gradient(150deg, #F2DDDE 30%, #FF0000 100%);
+}
+#contact-sns .col-12:nth-child(3) a {
+  background-image: linear-gradient(150deg, #F2DDDE 30%, #C13584 100%);
+}
+#contact-sns .col-12:last-child a {
+  background-image: linear-gradient(150deg, #F2DDDE 30%, #1DA1F2 100%);
+}/*# sourceMappingURL=style.css.map */
