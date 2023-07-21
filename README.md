@@ -7,30 +7,31 @@ This project is the second project from the web development class at Tamwood col
 
 - Make a musician website using Bootstrap and SCSS
 
-- At least 5 HTML pages and each page should include at least 3 sections
+- Include at least 5 HTML pages, with each page having a minimum of 3 sections
 
-- Viewports
+- Implement different viewports for responsiveness
     - Mobile: min-width: 576px
     - Tablet: min-width: 768px
     - Desktop: min-width: 992px
 
-- Do not use Lorem text
+- Avoid using Lorem text
 
 
 ## Planning & Design
 
-### A Website for K-pop band SEVENTEEN
-To choose the musician, I considered these things:
-- Have many specific informations and photos
-- Iconic color and logo
-- Easy to find outlink articles to use
-- Tour information for a special page
+### A Website for K-pop Band SEVENTEEN
+When choosing the musician, I considered the following aspects:
 
-### For Bootstrap
-The main requirement was using Bootstrap, so I wanted to use Bootstrap as much I can. This would not be efficiant way to build a website, but I wanted to discover that how many things I can to with Bootstrap. 
+- Including specific informations and photos about the band
+- Incorporating the musician's iconic color and logo
+- Ensuring easy access to external articles to reference
+- Dedicated page for tour information
 
-### Identified Design
-This is the musician website, so I wanted to design it has there identity. I used there logo and iconic color which is Rosequartz `#F2DDDE` and Serenity `#89ABE3`. 
+### Using Bootstrap
+As the main requirement was using Bootstrap, I aimed to leverage it as much as possible. Although this might not be the most efficiant way to build a website, I wanted to explore the capabilities of Bootstrap. 
+
+### Unigue Design Identity
+Since this is a musician website, I wanted to give it a distinctive identity. I incorporated the band's logo and iconic color which are Rosequartz `#F2DDDE` and Serenity `#89ABE3`. 
 
 ### Wireframes for Each Viewport
 
@@ -47,3 +48,9 @@ This is the musician website, so I wanted to design it has there identity. I use
 
 ### Hover Effect for Articles
 ![Hover Effect for Articles](/screenshot/article.gif)
+
+
+## Updates
+
+- May 9 - May 12, 2023 : First edit
+- Jul 20, 2023 : Added README
