@@ -30,7 +30,7 @@ When choosing the musician, I considered the following aspects:
 ### Using Bootstrap
 As the main requirement was using Bootstrap, I aimed to leverage it as much as possible. Although this might not be the most efficiant way to build a website, I wanted to explore the capabilities of Bootstrap. 
 
-### Unigue Design Identity
+### Unique Design Identity
 Since this is a musician website, I wanted to give it a distinctive identity. I incorporated the band's logo and iconic color which are Rosequartz `#F2DDDE` and Serenity `#89ABE3`. 
 
 ### Wireframes for Each Viewport
